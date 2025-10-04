@@ -58,3 +58,9 @@ El análisis completo está dividido en tres notebooks de Jupyter. Para asegurar
 3.  **`task1_2_frompart3.ipynb`**
     * **Contenido**: Utiliza todos los datos y análisis generados previamente.
     * **Análisis**: Crea los mapas interactivos finales con Folium, incluyendo el coroplético nacional y los mapas de proximidad, dejando todo listo para la aplicación.
+  
+-----
+Document in the README how hospitals were filtered for “functioning status”: Luego de revisar la data, se identificó que los hospitales en funcionamiento tenían el valor "EN FUNCIONAMIENTO" en la variable "Condición". Por ello se usó data = data[data["Condición"] == "EN FUNCIONAMIENTO"] para filtrarlos.
+
+-----
+Link del Streamlit publicado: https://g388nsruz9uktchjsouxos.streamlit.app/
