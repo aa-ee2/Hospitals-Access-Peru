@@ -125,8 +125,8 @@ st.markdown("---")
 # CARGA INICIAL DE DATOS
 # =============================================================================
 hospitals = load_data(DATA_DIR / "IPRESS.csv", 'csv')
-centros_poblados = load_data(DATA_DIR / "CCPP_IGN100K.shp", 'shp')
-distritos = load_data(DATA_DIR / "DISTRITOS.shp", 'shp')
+centros_poblados = load_data(DATA_DIR / "shape_file" / "CCPP_IGN100K.shp", 'shp')
+distritos = load_data(DATA_DIR / "shape_file" / "DISTRITOS.shp", 'shp')
 
 # =============================================================================
 # ESTRUCTURA DE PESTAÑAS
@@ -203,13 +203,13 @@ with tab3:
     st.markdown("Estos mapas interactivos utilizan buffers de 10 km alrededor de los centros poblados para simular áreas de cobertura y visualizar las brechas de acceso de manera más clara.")
 
     st.subheader("Cobertura y Proximidad en Lima Metropolitana")
-    show_map("mapa_proximidad_Lima.html")
+    show_map("mapa_proximidad_lima.html")
     st.markdown("""
     **Interpretación:** En Lima, los círculos de cobertura se superponen constantemente, indicando que la mayoría de la población vive a menos de 10 km de múltiples centros de salud. El desafío aquí es menos la distancia y más la congestión o la capacidad de los servicios.
     """)
 
     st.subheader("Aislamiento y Distancia en Loreto")
-    show_map("mapa_proximidad_Loreto.html")
+    show_map("mapa_proximidad_loreto.html")
     st.markdown("""
     **Interpretación:** El panorama en Loreto es el opuesto. Grandes "vacíos" entre los círculos de cobertura demuestran que para muchas comunidades, el centro de salud más cercano está a varias horas o incluso días de viaje, usualmente por vía fluvial.
     """)
