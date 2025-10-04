@@ -1,11 +1,11 @@
 
-# **Assignment 2: Geospatial Analysis of Hospitals in Peru
+# Assignment 2: Geospatial Analysis of Hospitals in Peru
 
 Este proyecto realiza un análisis geoespacial para evaluar la distribución y el acceso a los establecimientos de salud públicos en Perú. Utilizando datos del MINSA (IPRESS) y del INEI (Centros Poblados), se generan mapas estáticos y dinámicos para visualizar la cobertura a nivel distrital y departamental.
 
 -----
 
-## **Requisitos** 📋
+## **Requisitos** 
 
   * **Conda**: El gestor de paquetes y entornos.
   * **Python 3.9** o superior.
