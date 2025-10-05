@@ -1,0 +1,29 @@
+#Librerias ordenadas
+# Estas son las librerías usadas en el archivo "codigo.ipynb", de manera resumida y ordenada.
+
+!pip install chardet
+!pip install geopandas
+!pip install folium
+
+import pandas as pd
+from pandas import Series, DataFrame
+import numpy as np
+import matplotlib.pyplot as plt 
+import chardet
+
+import geopandas as gpd
+from geopandas import GeoSeries
+from shapely.geometry import Point, LineString
+import folium 
+from folium import Marker, GeoJson
+from folium.plugins import MarkerCluster, HeatMap
+
+import matplotlib.colors as mcolors
+import os
+import seaborn as sns
+
+import fiona
+from pathlib import Path
+import warnings
+warnings.filterwarnings('ignore')
+
